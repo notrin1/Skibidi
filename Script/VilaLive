@@ -1,0 +1,71 @@
+GameName = "Visa Live at le Louvre"
+
+tab1name = "Main"
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local GameName = Library:NewWindow(GameName)
+
+local Tab1 = GameName:NewSection(tab1name)
+
+Tab1:CreateButton("UGC 1", function(value)
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\1",
+            [2] = "\20\167w6?\207@\173\168\11\215\138\146\152\192\140",
+            [3] = {
+                [1] = "PurchaseItem",
+                [2] = 17441652023,
+                [3] = 0
+            }
+        },
+        [2] = "\16"
+    }
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("remnantsofsiren_bridgenet2@1.0.1").dataRemoteEvent:FireServer(unpack(args))
+ end)
+
+Tab1:CreateButton("UGC 2", function(value)
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\1",
+            [2] = "<Z\145\n\210\163Mt\148MN\252k`\140\203",
+            [3] = {
+                [1] = "PurchaseItem",
+                [2] = 17417992825,
+                [3] = 0
+            }
+        },
+        [2] = "\16"
+    }
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("remnantsofsiren_bridgenet2@1.0.1").dataRemoteEvent:FireServer(unpack(args))
+ end)
+
+Tab1:CreateButton("UGC 3", function(value)
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\1",
+            [2] = "\134\219\205~\141QL&\186\207\14\221b\142\166o",
+            [3] = {
+                [1] = "PurchaseItem",
+                [2] = 17611549814,
+                [3] = 0
+            }
+        },
+        [2] = "\16"
+    }
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("remnantsofsiren_bridgenet2@1.0.1").dataRemoteEvent:FireServer(unpack(args))
+ end)
+
+Tab1:CreateButton("Claim UGC", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-442.98288, 3.73219872, -412.051178, -0.0585145392, 8.28075244e-08, 0.998286545, 4.33219611e-08, 1, -8.04103379e-08, -0.998286545, 3.85425594e-08, -0.0585145392))
+end)
+local Tab2 = GameName:NewSection("Furry Rinn")
